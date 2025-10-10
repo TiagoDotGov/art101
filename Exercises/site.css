@@ -1,0 +1,14 @@
+BODY {
+    background: #93CFC4; padding: 50px;
+}
+
+H1, H2, H3 {
+    color: #676e8f; font-family: sans-serif;
+}
+
+#mypic {
+    width: 200px;
+}
+a:hover{
+    Color: purple;
+}

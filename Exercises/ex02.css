@@ -1,0 +1,17 @@
+p {
+    background-color: #f5dcf5;
+    width: 200px;
+    padding: 30px;
+}
+
+.highlight_01 {
+    background: #aef39a;
+}
+
+.highlight_02 {
+    background: #ffa6d8
+}
+
+#kitty {
+    width: 200;
+}

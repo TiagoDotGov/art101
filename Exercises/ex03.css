@@ -1,0 +1,30 @@
+.test-div {
+    background: pink;
+    padding: 20px;
+    margin: 20 px;
+}
+button {
+    margin: 20px;
+}
+button.special {
+    background: gray;
+    color: white
+}
+button.special:hover {
+    background: rgb(158, 19, 19);
+    color: black
+}
+h2 {
+    color: rosybrown;
+}
+p {
+    color: forestgreen;
+}
+div h2{
+    color:blueviolet
+}
+.my-flex {
+    display:flex;
+    flex-direction: row;
+
+}
