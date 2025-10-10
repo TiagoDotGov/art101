@@ -9,6 +9,19 @@ H1, H2, H3 {
 #mypic {
     width: 200px;
 }
+
 a:hover{
     Color: purple;
+}
+
+#introduction h2 {
+    font-style: italic;
+}
+
+#introduction p {
+    font-size: 120%;
+}
+.navigation{ 
+    display: flex;
+    gap: 20px
 }
