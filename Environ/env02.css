@@ -1,0 +1,48 @@
+body {
+    background-image: url("images/hotspringbkgrd.jpg");
+    background-size: cover;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 500px;
+    color: #A82318;
+    background-color: bisque;
+    width: 35%;
+}
+
+div {
+    width: 700px;
+    margin: 200px;
+}
+
+#takenking {
+    width: 600px;
+    position: absolute;
+    top: 20px;
+    left: 900px;
+}
+
+#teapot {
+    width: 20%;
+}
+
+#teacups {
+    width: 10%;
+    align-self: center;
+}
+
+.text3 {
+    width: 300px;
+    position: relative;
+    left: 400px
+}
+
+.tea_items {
+    display: flex;
+    align-content: baseline;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+}
