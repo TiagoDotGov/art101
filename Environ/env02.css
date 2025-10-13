@@ -16,6 +16,10 @@ div {
     margin: 200px;
 }
 
+#text1 {
+    position:relative
+}
+
 #takenking {
     width: 600px;
     position: absolute;
@@ -32,7 +36,7 @@ div {
     align-self: center;
 }
 
-.text3 {
+#text3 {
     width: 300px;
     position: relative;
     left: 400px
@@ -42,7 +46,7 @@ div {
     display: flex;
     align-content: baseline;
     flex-wrap: wrap;
-    position: relative;
-    bottom: 140px;
-    left: 60px;
+    position: absolute;
+    bottom: 50px;
+    left: px;
 }
