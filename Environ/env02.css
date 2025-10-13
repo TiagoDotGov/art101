@@ -19,7 +19,7 @@ div {
 #takenking {
     width: 600px;
     position: absolute;
-    top: 20px;
+    top: 85px;
     left: 900px;
 }
 
@@ -43,6 +43,6 @@ div {
     align-content: baseline;
     flex-wrap: wrap;
     position: relative;
-    bottom: 150px;
-    left: 50px;
+    bottom: 140px;
+    left: 60px;
 }
