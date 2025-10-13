@@ -17,7 +17,7 @@ div {
 }
 
 #text1 {
-    position:relative
+    position:relative;
 }
 
 #takenking {
@@ -49,4 +49,10 @@ div {
     position: absolute;
     top: 440px;
     left: 5px;
+}
+#monkey {
+width: 10%;
+position: absolute;
+left: 600px;
+bottom: 30px;
 }
