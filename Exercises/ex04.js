@@ -1,9 +1,14 @@
+//create counter for clicks starting at 0
 let totalNumber = 0;
-//add a button titled Try To Click Me
+//find element with id "needy button" tell it what to do when clicked
+$("#needy-button").html("Click me 50 times and I explode!")
 $("#needy-button").click( function(){
-    totalNumber = totalNumber + 1;
+    
+    //
+    totalNumber = totalNumber + 3;
 
-    $("#needy-button").html("You clicked me " + totalNumber);
+    $("#needy-button").html("I am so clicked this many (" + totalNumber + ") times!");
+    
 })
 //when button is clicked
 //when it is clicked
