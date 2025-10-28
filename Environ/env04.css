@@ -1,0 +1,115 @@
+body {
+    background-image: url("images/Sunny.jpg");
+    background-size: cover;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 500px;
+    color: #A82318;
+    background-color: bisque;
+    width: 35%;
+}
+
+div {
+    width: 700px;
+    margin: 200px;
+}
+
+#text1 {
+    position:relative;
+}
+
+#takenking {
+    width: 600px;
+    position: absolute;
+    top: 20px;
+    left: 900px;
+}
+
+#teapot {
+    width: 20%;
+}
+
+#teacups {
+    width: 10%;
+    align-self: center;
+}
+
+#text3 {
+    width: 300px;
+    position: relative;
+    left: 400px
+}
+
+.tea_items {
+    display: flex;
+    align-content: baseline;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 440px;
+    left: 5px;
+}
+#monkey {
+width: 10%;
+position: absolute;
+left: 600px;
+bottom: 30px;
+}
+
+#mover {
+    align-content: flex-start;
+    height: 40px;
+    order: 1;
+    color:#A82318;
+    background-color: aquamarine;
+}
+
+#mover:hover {
+    color:#ff7265;
+    background-color: rgb(86, 226, 179);
+}
+
+#descTitle {
+    color: #A82318;
+}
+
+#descContents {
+    order: 2;
+    color:#A82318
+}
+
+.envInfo {
+    display:flex;
+    border-radius: 25px;
+    background: bisque;
+    height: 225px;
+    max-width: 300px;
+    flex-direction: column;
+    padding: 20px;
+    align-content: center;
+    right: 30px;
+    bottom: 250px;
+    position: absolute;
+}
+#weatherDiv {
+    margin: 50px;
+    width: 300px;
+}
+#weatherButton {
+    background-color: rgb(60, 60, 112);
+    color: yellow;
+    position: relative;
+    left: 550px;
+    bottom: 700px;
+    margin: 75px;
+    width: 70px;
+}
+
+#monkeyGroup {
+    width: 500px;
+    position: absolute;
+    right: 300px;
+    top: 800px;
+    display: none;
+}

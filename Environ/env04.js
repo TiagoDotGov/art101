@@ -1,5 +1,7 @@
 //create objects for each item on the page (Oryx, monkey, teapot, hot spring)
 //fix object attributes so I can print them all without doing a bunch of stupid shit
+var states = ["Sunny", "Snowy"]
+var countWeather = 0
 let count = 0
 let oryx = {
     epitaph: "Epitaphs: The First Navigator, The Taken King",
@@ -43,7 +45,23 @@ $("#mover").click( function () {
     $("#descContents").html(myArray.toString());
 
     count = count + 1
+});
 
+function changeWeather (weather){
+$("body").css("background-image", "url('images/" + weather + ".jpg')" )
+};
+function hideMonkey (){
+    if (countWeather == 1) { $("#monkeyGroup").css("display", "block")}
+    else {$("#monkeyGroup").css("display","none")}
+} 
+//find button to click
+//when clicked, cycle weather (sunny, snowy)
+$("#weatherButton").click( function(){
+    hideMonkey();
+    changeWeather(states[countWeather]);
+    countWeather = countWeather + 1;
+    if (countWeather == 2) {countWeather = 0};
 })
-
-//display the attributes of the objects in array
+//change parameter to the current weather
+//when parameter is snowy, set background to "snowy" picture, add monkey group
+//when the parameter is sunny, set background to the normal one, remove monkey group
