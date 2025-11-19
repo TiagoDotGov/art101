@@ -57,9 +57,9 @@ function hideMonkey() {
 //find button to click
 //when clicked, cycle weather (sunny, snowy)
 $("#weatherButton").click(function () {
+    countWeather = countWeather + 1;
     hideMonkey();
     changeWeather(states[countWeather]);
-    countWeather = countWeather + 1;
     if (countWeather == 2) { countWeather = 0 };
 })
 //change parameter to the current weather
