@@ -58,9 +58,9 @@ function hideMonkey() {
 //when clicked, cycle weather (sunny, snowy)
 $("#weatherButton").click(function () {
     countWeather = countWeather + 1;
+    if (countWeather == 2) { countWeather = 0 };
     hideMonkey();
     changeWeather(states[countWeather]);
-    if (countWeather == 2) { countWeather = 0 };
 })
 //change parameter to the current weather
 //when parameter is snowy, set background to "snowy" picture, add monkey group
