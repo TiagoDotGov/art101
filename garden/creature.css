@@ -1,0 +1,86 @@
+#creatureForm {
+    background: lavender;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 25px;
+}
+
+#creatureList {
+    background: rgb(165, 197, 165);
+    display: flex;
+    flex-wrap: warp;
+    gap: 20px;
+    margin: 50px;
+}
+
+body {
+    background-image: url("images/floral_bkgrd.jpg");
+}
+
+h1 {
+    font-size: 48px;
+    color: #fff;
+    text-shadow:
+        0 0 5px rgb(225, 0, 255),
+        0 0 10px rgb(255, 0, 255),
+        0 0 20px rgb(255, 0, 255),
+        0 0 40px rgb(255, 0, 255),
+        0 0 80px rgb(255, 0, 255);
+    padding: 20px;
+    text-align: center
+}
+
+#summTitle {
+
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        -2px 0px 0 #000,
+        2px 0px 0 #000,
+        0px -2px 0 #000,
+        0px 2px 0 #000;
+}
+
+#creature-form DIV {
+    margin-bottom: 10px;
+}
+
+.creature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.creature-body {
+    background: pink;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.eye {
+    height: 18px; 
+    width: 10px; 
+    border: 2px solid #000; 
+    border-radius: 10px; 
+    background: #fff;
+}
+
+.small {
+    width: 50px;
+    height: 50px;
+}
+.medium {
+    width: 100px;
+    height: 100px;
+}
+.large {
+    width: 200px;
+    height: 200px;
+}

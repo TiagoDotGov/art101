@@ -1,6 +1,6 @@
 var count = 0;
 let colorCount = 0;
-var colors = ["Orchid", "Coral", "HotPink", "Plum"];
+var colors = ["Orchid", "Coral", "HotPink", "Plum" ,"LightBlue", "Gold", "GreenYellow", "Orange"];
 
 function makeImage (imageName) {
 if (colors[colorCount] == imageName) {
@@ -13,6 +13,7 @@ function changeBackground(newColor){
 
 }
 
+
 function changeMood(moodCount) {
     let mood = "";
    if (moodCount < 5) { mood = "fresh and happy"; }
@@ -24,6 +25,19 @@ function changeMood(moodCount) {
 $(".colorButton").click( function () {
     changeBackground(this.id);
 });
+
+$(".newButton").click( function () {
+    changeBackground(this.id);
+});
+
+//look at the button we're clicking
+//if it's in the class colorButton then
+$(".colorButton").click( function() {
+    $(".newButton").attr("hidden", false);
+    //determine which buttons aren't revealed
+    //reveal a button
+    //#button ID
+})
 
 $("#needy-button").click(function () {
     let moodMessage = changeMood(count);

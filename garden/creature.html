@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creature Garden</title>
+    <link rel="stylesheet" href="creature.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="creature.js" DEFER></script>
+</head>
+<h1>Creature Garden</h1>
+<div id="creatureForm">
+    <h2 id="summTitle">Bring a Creature to Life</h2>
+    <div>
+        Name: <input type="text" id="crName" maxlength="12">
+    </div>
+    <div>
+        Color:<input id="crColor" type="color" value="#68e0e8">
+    </div>
+    <div>
+        Number of eyes: <input id="crEyesNum" type="number" max="5" min="0">
+    </div>
+    <div>
+        Size: <select id="crSize">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select>
+    </div>
+    <button id="summon">Summon beast</button>
+</div>
+
+<div id="creatureList">The Pen:</div>
+
+<body>
+
+
+
+
+</body>
+
+</html>

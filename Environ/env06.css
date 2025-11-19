@@ -17,7 +17,7 @@ div {
 }
 
 #text1 {
-    position:relative;
+    position: relative;
 }
 
 #takenking {
@@ -50,23 +50,24 @@ div {
     top: 440px;
     left: 5px;
 }
+
 #monkey {
-width: 10%;
-position: absolute;
-left: 600px;
-bottom: 30px;
+    width: 10%;
+    position: absolute;
+    left: 600px;
+    bottom: 30px;
 }
 
 #mover {
     align-content: flex-start;
     height: 40px;
     order: 1;
-    color:#A82318;
+    color: #A82318;
     background-color: aquamarine;
 }
 
 #mover:hover {
-    color:#ff7265;
+    color: #ff7265;
     background-color: rgb(86, 226, 179);
 }
 
@@ -76,11 +77,11 @@ bottom: 30px;
 
 #descContents {
     order: 2;
-    color:#A82318
+    color: #A82318
 }
 
-.envInfo {
-    display:flex;
+#envInfo {
+    display: flex;
     border-radius: 25px;
     background: bisque;
     height: 225px;
@@ -114,4 +115,46 @@ bottom: 30px;
     right: 300px;
     top: 800px;
     display: none;
+}
+
+#textHider {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    margin: 75px;
+    width: 86px;
+}
+
+#thrallBox {
+    display: none;
+
+}
+
+#thrall {
+    height: 200px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+#nameThrall {
+    position: absolute;
+    left: 100px;
+    bottom: 300px
+}
+
+#thrallMover {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100px;
+    align-items: center;
+    width: 150px;
+    bottom: 130px;
+    right: 1450px;
+}
+
+#thrallTitle {
+    font-size: large;
+    background: #ff7265;
+    color: aliceblue;
 }
