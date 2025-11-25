@@ -1,0 +1,43 @@
+img{width: 785px;}
+H1, H2, H3 {color: #ffffff; font-family:'Courier New', Courier, monospace;}
+h3{font-size: x-large;}
+title, p {color: #ffffff; font-family:'Courier New', Courier, monospace;}
+BODY { background-image: url('wpby.jpg');}
+.ti1{background:purple;}
+.ln1{font-family:'helvetica', sans-serif;}
+
+#defoutputa{background: purple; width: 400;}
+
+#defoutputb{background: purple; width: 400;}
+
+#defoutputc{background: purple; width: 400;}
+
+.container { display: flex;
+  gap: 5px;
+}
+
+img {
+  border: 15px solid #f85757;
+}
+
+.boxes {
+  background-color: rgb(0, 0, 0);
+  width: 300px;
+  border: 15px solid #f85757;
+  padding: 30px;
+  margin: 10px;
+}
+.lt{
+background-color: rgb(0, 0, 0);
+Width: 300px;
+border: 15px solid rgb(255, 255, 255);
+padding: 30px;
+margin:  10px
+}
+
+.cyswa{ display: none; }
+
+.cyswb{ display: none; }
+
+.cyswc{ display: none; }
+

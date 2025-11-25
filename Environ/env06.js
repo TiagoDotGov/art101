@@ -52,10 +52,10 @@ function enterToSubmit(e) {
 };
 
 function moveThrall() {
-    $(document).mousemove(function (event) {
+    $(document).mousemove(function (e) {
         $("#thrallMover").css({
-            left: event.pageX - 270,
-            top: event.pageY - 300,
+            left: e.pageX - 270,
+            top: e.pageY - 300,
             position: "absolute"
         })
     }
